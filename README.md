@@ -12,10 +12,6 @@
   <img src="https://img.shields.io/badge/Data-JSON-111827?style=flat-square" alt="JSON" />
 </p>
 
-<div align="center">
-  [📂 GitHub Repo](https://github.com/Mushi-Wushi?tab=repositories)
-</div>
-
 <h1 align="center">🦖 Jurassic Explorer Encyclopedia 🌿</h1>
 <p align="center"><i>A Jurassic field-guide style mini app for scouting, sorting, and comparing Mesozoic giants.</i></p>
 
@@ -165,7 +161,7 @@ I’m solving the “I want to quickly find + compare dinosaurs” problem by bu
 
    ## 🦕 Author
 
-   ** John Fred B. Delos Santos**
+   **John Fred B. Delos Santos**
 
   🦖🌿 Built like a field guide. Tested like a lab tool. Ready for exploration.
 </p>

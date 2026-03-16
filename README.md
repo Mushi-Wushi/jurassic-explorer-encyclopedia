@@ -10,9 +10,11 @@
   <img src="https://img.shields.io/badge/JavaScript-ES6-f7df1e?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Storage-localStorage-111827?style=flat-square" alt="localStorage" />
   <img src="https://img.shields.io/badge/Data-JSON-111827?style=flat-square" alt="JSON" />
-
-  [📂 GitHub Repo](https://github.com/Mushi-Wushi?tab=repositories)
 </p>
+
+<div align="center">
+  [📂 GitHub Repo](https://github.com/Mushi-Wushi?tab=repositories)
+</div>
 
 <h1 align="center">🦖 Jurassic Explorer Encyclopedia 🌿</h1>
 <p align="center"><i>A Jurassic field-guide style mini app for scouting, sorting, and comparing Mesozoic giants.</i></p>

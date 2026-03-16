@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jurassic Explorer Encyclopedia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">FIELD GUIDE</p>
+      <h1>Jurassic Explorer Encyclopedia</h1>
+      <p class="hero-sub">
+        Search, filter, compare, and favorite dinosaurs from the Mesozoic era.
+      </p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls" aria-label="Search and filters">
+      <div class="control control--search">
+        <label for="searchInput">Search</label>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search by name or description..."
+          aria-label="Search dinosaurs"
+        />
+      </div>
+
+      <div class="control">
+        <label for="periodFilter">Period</label>
+        <select id="periodFilter" aria-label="Filter by period">
+          <option value="All">All Periods</option>
+          <option value="Triassic">Triassic</option>
+          <option value="Jurassic">Jurassic</option>
+          <option value="Cretaceous">Cretaceous</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="dietFilter">Diet</label>
+        <select id="dietFilter" aria-label="Filter by diet">
+          <option value="All">All Diets</option>
+          <option value="Carnivore">Carnivore</option>
+          <option value="Herbivore">Herbivore</option>
+          <option value="Omnivore">Omnivore</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="sizeFilter">Size</label>
+        <select id="sizeFilter" aria-label="Filter by size">
+          <option value="All">All Sizes</option>
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+          <option value="Huge">Huge</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="sortSelect">Sort</label>
+        <select id="sortSelect" aria-label="Sort dinosaurs">
+          <option value="name-asc">Name A–Z</option>
+          <option value="name-desc">Name Z–A</option>
+          <option value="length-asc">Length ↑</option>
+          <option value="length-desc">Length ↓</option>
+        </select>
+      </div>
+
+      <label class="favorites-toggle" for="favoritesOnly" title="Show only your starred dinosaurs">
+        <input type="checkbox" id="favoritesOnly" />
+        <span>Favorites only</span>
+      </label>
+
+      <div class="controls-hint">
+        Tip: Click <strong>Compare</strong> on cards to auto-fill A → B.
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Results toolbar">
+      <div>
+        <p id="resultsInfo" class="results-info">Loading dinosaurs…</p>
+        <div id="activeFilters" class="active-filters" aria-live="polite"></div>
+      </div>
+
+      <div class="toolbar-actions">
+        <button id="resetBtn" class="reset-btn" type="button">Clear filters</button>
+      </div>
+    </section>
+
+    <section class="compare-panel" aria-label="Compare dinosaurs">
+      <div class="compare-header">
+        <h2>Compare Two Dinosaurs</h2>
+        <p class="compare-sub">Select two specimens for a quick field comparison.</p>
+      </div>
+
+      <div class="compare-controls">
+        <div class="control">
+          <label for="compareSelectA">Specimen A</label>
+          <select id="compareSelectA" aria-label="Select first dinosaur to compare">
+            <option value="">Choose Dinosaur A</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label for="compareSelectB">Specimen B</label>
+          <select id="compareSelectB" aria-label="Select second dinosaur to compare">
+            <option value="">Choose Dinosaur B</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="compareResult" class="compare-result">
+        <p class="compare-placeholder">Choose two dinosaurs to compare.</p>
+      </div>
+    </section>
+
+    <section id="dinoGrid" class="dino-grid" aria-label="Dinosaur cards"></section>
+  </main>
+
+  <script src="script.js" defer></script>
+
+  <footer class="footer">
+    <p>Designed with love by John Fred B. Delos Santos.</p>
+    <p>&copy; 2026. All rights reserved.</p>
+  </footer>
+</body>
+</html>

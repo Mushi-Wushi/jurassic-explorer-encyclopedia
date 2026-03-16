@@ -1,0 +1,93 @@
+[
+  {
+    "id": "trex",
+    "name": "Tyrannosaurus Rex",
+    "displayName": "T. Rex",
+    "period": "Cretaceous",
+    "diet": "Carnivore",
+    "size": "Large",
+    "length": 12.3,
+    "image": "assets/dinosaurs/trex.png",
+    "description": "Apex Cretaceous predator with a crushing bite—powerful legs, massive skull, pure dominance."
+  },
+  {
+    "id": "triceratops",
+    "name": "Triceratops",
+    "period": "Cretaceous",
+    "diet": "Herbivore",
+    "size": "Large",
+    "length": 9,
+    "image": "assets/dinosaurs/triceratops.png",
+    "description": "Horned Cretaceous grazer with a massive frill—likely stood its ground against big predators."
+  },
+  {
+    "id": "velociraptor",
+    "name": "Velociraptor",
+    "period": "Cretaceous",
+    "diet": "Carnivore",
+    "size": "Small",
+    "length": 2,
+    "image": "assets/dinosaurs/velociraptor.png",
+    "description": "Small, fast Cretaceous hunter with a sickle claw—quick, alert, and opportunistic."
+  },
+  {
+    "id": "stegosaurus",
+    "name": "Stegosaurus",
+    "period": "Jurassic",
+    "diet": "Herbivore",
+    "size": "Large",
+    "length": 9,
+    "image": "assets/dinosaurs/stegosaurus.png",
+    "description": "A Jurassic plant-eater with back plates and a spiked tail—defensive armor more than speed."
+  },
+  {
+    "id": "brachiosaurus",
+    "name": "Brachiosaurus",
+    "period": "Jurassic",
+    "diet": "Herbivore",
+    "size": "Huge",
+    "length": 22,
+    "image": "assets/dinosaurs/brachiosaurus.png",
+    "description": "Towering Jurassic browser with long forelegs—reached treetops other giants couldn’t."
+  },
+  {
+    "id": "allosaurus",
+    "name": "Allosaurus",
+    "period": "Jurassic",
+    "diet": "Carnivore",
+    "size": "Large",
+    "length": 8.5,
+    "image": "assets/dinosaurs/allosaurus.png",
+    "description": "Large Jurassic predator with serrated teeth—one of the top hunters of its ecosystem."
+  },
+  {
+    "id": "plateosaurus",
+    "name": "Plateosaurus",
+    "period": "Triassic",
+    "diet": "Herbivore",
+    "size": "Medium",
+    "length": 8,
+    "image": "assets/dinosaurs/plateosaurus.png",
+    "description": "An early long-necked Triassic herbivore—sturdy, adaptable, and built for long-distance browsing."
+  },
+  {
+    "id": "ankylosaurus",
+    "name": "Ankylosaurus",
+    "period": "Cretaceous",
+    "diet": "Herbivore",
+    "size": "Large",
+    "length": 6,
+    "image": "assets/dinosaurs/ankylosaurus.png",
+    "description": "Armored Cretaceous tank with a tail club—built to absorb hits and strike back."
+  },
+  {
+    "id": "parasaurolophus",
+    "name": "Parasaurolophus",
+    "period": "Cretaceous",
+    "diet": "Herbivore",
+    "size": "Large",
+    "length": 10,
+    "image": "assets/dinosaurs/parasaurolophus.png",
+    "description": "Crested Cretaceous hadrosaur—its hollow crest may have boosted calls across herds."
+  }
+]

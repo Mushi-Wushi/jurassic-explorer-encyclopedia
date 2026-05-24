@@ -1,3 +1,8 @@
+/**
+ * Jurassic Explorer Encyclopedia
+ * Front-end logic © 2026 John Fred B. Delos Santos
+ */
+
 const dinoGrid = document.getElementById("dinoGrid");
 const resultsInfo = document.getElementById("resultsInfo");
 const activeFiltersEl = document.getElementById("activeFilters");
@@ -195,7 +200,7 @@ function createDinoCard(dino) {
         </div>
 
         <div class="stat-stack">
-          <p><span>Length</span><strong>${dino.length} m</strong></p>
+          <p><span>Length</span><strong>${dino.length} ft</strong></p>
           <p><span>Era Group</span><strong>${dino.period}</strong></p>
         </div>
 
@@ -327,7 +332,7 @@ function createCompareCard(dino, isLonger = false) {
             <p><span>Period</span><strong>${dino.period}</strong></p>
             <p><span>Diet</span><strong>${dino.diet}</strong></p>
             <p><span>Size</span><strong>${dino.size}</strong></p>
-            <p><span>Length</span><strong>${dino.length} m</strong></p>
+            <p><span>Length</span><strong>${dino.length} ft</strong></p>
          </div>
 
          <p class="compare-description">${safeDesc}</p>
@@ -363,10 +368,10 @@ function updateComparePanel() {
 
   if (dinoA.length > dinoB.length) {
     longerId = dinoA.id;
-    summaryText = `${dinoA.name} is longer by ${(dinoA.length - dinoB.length).toFixed(1)} meters.`;
+    summaryText = `${dinoA.name} is longer by ${(dinoA.length - dinoB.length).toFixed(1)} feet.`;
   } else if (dinoB.length > dinoA.length) {
     longerId = dinoB.id;
-    summaryText = `${dinoB.name} is longer by ${(dinoB.length - dinoA.length).toFixed(1)} meters.`;
+    summaryText = `${dinoB.name} is longer by ${(dinoB.length - dinoA.length).toFixed(1)} feet.`;
   } else {
     summaryText = `${dinoA.name} and ${dinoB.name} have the same recorded length.`;
   }
